@@ -9,8 +9,15 @@
 <body>
     <form id="form1" runat="server">
     <div>
-    
+
+        <asp:TextBox ID="txtbxValue1" runat="server"></asp:TextBox>
+        <asp:TextBox ID="txtbxValue2" runat="server"></asp:TextBox>
+        <asp:Button ID="btnAdd" runat="server" OnClick="btnAdd_Click" Text="Add" />
+
     </div>
+        <p>
+            <asp:Label ID="EqualsLabel" runat="server"></asp:Label>
+        </p>
     </form>
 </body>
 </html>
